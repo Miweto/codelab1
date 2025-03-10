@@ -92,6 +92,8 @@ input::placeholder {
   width: 100%;
   display: flex;
   align-items: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .card > span > svg {
@@ -101,10 +103,14 @@ input::placeholder {
 .card > h3 {
   color: var(--dark-60);
   margin-bottom: 16px;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: 24px;
 }
 
 .card > p {
   color: var(--dark-50);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .TextO {
