@@ -1,9 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --brand-color: #e07b67;
   --dark-10: #121214;
@@ -12,6 +6,14 @@
   --dark-40: #252529;
   --dark-50: #afabb6;
   --dark-60: #ffffff;
+  --Inter: "Inter", sans-serif;
+  --Grotesk: "Space Grotesk", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--Inter);
 }
 
 body {
@@ -50,6 +52,9 @@ input {
 
 header > div > h1 {
   color: var(--brand-color);
+  font-family: var(--Grotesk);
+  font-size: 40px;
+  font-weight: 500;
 }
 
 header > div > h1 > span {
@@ -58,6 +63,9 @@ header > div > h1 > span {
 
 input::placeholder {
   color: var(--dark-50);
+  font-family: var(--Inter);
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .card-list {
@@ -92,8 +100,6 @@ input::placeholder {
   width: 100%;
   display: flex;
   align-items: center;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
 }
 
 .card > span > svg {
@@ -103,14 +109,11 @@ input::placeholder {
 .card > h3 {
   color: var(--dark-60);
   margin-bottom: 16px;
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: 24px;
+  font-family: var(--Grotesk);
 }
 
 .card > p {
   color: var(--dark-50);
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
 }
 
 .TextO {
