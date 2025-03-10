@@ -14,12 +14,6 @@
   --dark-60: #ffffff;
 }
 
-.gay {
-  margin: 10 50% 0;
-  text-align: center;
-  padding: 25px;
-}
-
 body {
   background-color: var(--dark-10);
   color: var(--dark-60);
